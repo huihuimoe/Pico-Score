@@ -411,6 +411,10 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
                         </li>
                     </ul>
                 </section>
+                <section id="Disqus">
+                    <div id="disqus_thread"></div>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </section>
             </article>
             <footer>
                 <p>Copyright © 2016 | Page designed by <a target="_blank" href="https://huihui.moe/">Hui Hui</a>. </p>
@@ -424,6 +428,11 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script async src="//www.googletagmanager.com/gtag/js?id=UA-73507102-2"></script>
     <script>
+        var d = document, s = d.createElement('script');
+        s.src = 'https://pico-score-huihui-moe.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        s.setAttribute('async', '');
+        (d.head || d.body).appendChild(s);
         (adsbygoogle = window.adsbygoogle || []).push({});
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
